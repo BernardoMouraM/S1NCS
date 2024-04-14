@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.box {
+  background-color: #cfeaec;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 3px solid #abc5c7;
+}
+body {
+  background: rgb(41, 148, 194);
+  background: radial-gradient(
+    circle,
+    rgb(68, 158, 197) 0%,
+    rgba(22, 38, 187, 0.87) 100%
+  );
+}
